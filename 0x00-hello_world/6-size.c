@@ -1,13 +1,22 @@
-nclude <iostream>
-using namespace std;
+#include<stdio.h>
 
-int main() 
-{    
-	    cout << "Size of char: " << sizeof(char) << " byte" << endl;
-	        cout << "Size of int: " << sizeof(int) << " bytes" << endl;
-		    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
-		        cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+/**
+ * main - entry point
+ *
+ * Return: always 0 (success)
+ */
+int main(void)
+{
+int a;
+long int b;
+long long int c;
+char d;
+float f;
 
-			    return 0;
+printf("size of char: %d byte(s)\n", sizeof(d));
+printf("Size of an int: %d byte(s)\n", sizeof(a));
+printf("Size of a long int: %d byte(s)\n", sizeof(b));
+printf("Size of a long long int: %d byte(s)\n", sizeof(c));
+printf("Size of a float: %d byte(s)\n", sizeof(f));
+return (0);
 }
-
