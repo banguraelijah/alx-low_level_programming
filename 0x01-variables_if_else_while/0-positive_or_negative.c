@@ -8,12 +8,11 @@ int n;
 srand(time(0));
 n =  rand() - Rand_MAX / 2'
 /** your code goes here */
-if(n > 0){
-printf("is positive\n");
+if(n > 0){printf("is positive:\n", n);
 }else if(n == 0){
-printf("is zero\n");
+printf("is zero\n", n);
 }else if (n < 0){
-printf("is negative\n");
+printf("is negative\n", n);
 }
 return (0);
 }
