@@ -4,9 +4,9 @@
  *
  * Return: always 0 (success)
  */
-int n;
+int n = 48;
 int letter = 'a';
-while (n < 10)
+while (n <= 57)
 {
 putchar((num % 10) + '0');
 n++;
