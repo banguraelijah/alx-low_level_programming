@@ -10,7 +10,7 @@ int n;
 int letter = 'a';
 while (n <= 10)
 {
-putchar((n % 10) + '0');
+putchar((n % 10));
 n++;
 }
 while (letter <= 'f')
