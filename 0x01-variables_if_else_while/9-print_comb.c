@@ -9,7 +9,7 @@ int main(void)
 int n;
 while (n <= 9)
 {
-if (num == 9)
+if (n == 9)
 putchar(',');
 putchar(' ');
 else
