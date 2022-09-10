@@ -9,7 +9,7 @@ int main(void)
 int n;
 while (n < 10)
 {
-write("%d", n);
+fwrite("%d", n);
 n++;
 }
 putchar('\n');
