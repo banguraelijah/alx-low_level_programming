@@ -2,22 +2,21 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Print if the number is positive, negative or zero
+ * main - Runs the code each time it is excuted
  *
- * Return: 0 when ever the cod is excuted
+ * Return: 0 always(success)
  */
 int main(void)
 {
-int n;
-int last;
+int n, last;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 last = n % 10;
 if (last > 5)
-printf("and is greater than 5");
-else if (last == 0)
-printf("and is zero\n");
+printf("%d and is greater than 5\n", n);
+else if (last < 6 && last != 0)
+printf("%d and is less than 6 and not 0\n", n);
 else
-printf("and is less than 6 and not 0\n", n);
+printf("%d and is zero\n", n);
 return (0);
 }
