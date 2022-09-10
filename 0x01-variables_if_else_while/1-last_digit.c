@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - called whenever the c programe is excuted
+ * main - runs the programe when the code is excuted
  *
- * Return: 0 when ever the programe is excuted correctly
+ * Return: 0 Always (success)
  */
 int main(void)
 {
@@ -13,11 +13,11 @@ int last;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 last = n % 10;
-if (last > 5)
-printf("%d and is greater than 5\n", n);
+if (l > 5)
+printf("Last digit of %d is %d and is greater than 5\n", n);
 else if (last == 0)
-printf("%d and is zero\n", n);
+printf("Last digit of %d id %d and d is zero\n", n);
 else
-printf("%d and is less than 6 and not 0", n);
+printf("Last digit of %d is %d and is less than 6 and not 0\n");
 return (0);
 }
