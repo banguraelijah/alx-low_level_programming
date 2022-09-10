@@ -16,9 +16,9 @@ x++;
 else
 {
 putchar(x);
-x++
+x++;
 }
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
