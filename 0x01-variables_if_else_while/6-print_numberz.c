@@ -9,9 +9,9 @@ int main(void)
 int n;
 while (n < 10)
 {
-printf("%d", n);
+write("%d", n);
 n++;
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
