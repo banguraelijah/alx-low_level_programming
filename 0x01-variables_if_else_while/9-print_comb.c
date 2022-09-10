@@ -12,7 +12,6 @@ while (n <= 9)
 putchar((n % 10) + '0');
 n++;
 if (n == 9)
-continue;
 putchar(',');
 putchar(' ');
 }
