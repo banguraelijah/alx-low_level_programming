@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-int x = 'a';
-while (x <= 'z')
+int x = "a";
+while (x <= "z")
 {
 putchar(x);
 x++;
