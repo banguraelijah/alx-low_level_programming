@@ -8,7 +8,7 @@ int main(void)
 {
 int n = 0;
 int letter = 'a';
-while (n <= 10)
+while (n < 10)
 {
 putchar((n % 10) + '0');
 n++;
