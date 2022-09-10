@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int x = 'a'
+int x = 'a';
 while (x <= 'z')
 {
 putchar(tolower(x));
