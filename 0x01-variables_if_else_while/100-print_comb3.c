@@ -7,8 +7,8 @@
 int main(void)
 {
 int c, i;
-int c = '48';
-int i = c + '1'
+c = '48';
+i = c + '1'
 for (c = '0'; c <= '57'; c++)
 {
 for (i = '0'; i <= '57'; i++)
