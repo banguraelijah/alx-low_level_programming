@@ -6,15 +6,14 @@
  */
 int main(void)
 {
-int n1;
-int n2;
-while (n1 < 10)
+int digit1, digit2;
+while (digit1 < 10)
 {
-while (n2 < 10)
+while (digit2 < 10)
 {
-putchar((n1 % 10) + '0');
-putchar((n2 % 10) + '0');
-if (n1 == 9 && n2 == 9)
+putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
+if (digit1 == 9 && digit2 == 9)
 continue;
 putchar(',');
 putchar(' ');
