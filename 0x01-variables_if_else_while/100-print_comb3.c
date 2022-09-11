@@ -11,8 +11,8 @@ for (digit1 = 1; digit1 <= 10; digit1++)
 {
 for (digit2 = 1; digit2 <= 10; digit2++)
 {
-putchar('%d', digit1);
-putchar('%d', digit2);
+putchar((digit1 % 10) + '0');
+putchar((digit2 % 10) + '0');
 if (digit1 == 9 && digit2 == 9)
 continue;
 putchar(',');
