@@ -1,21 +1,30 @@
 #include <stdio.h>
-/**
- * main - runs the code when executed
- *
- * Return: always 0 (success)
- */
-int main(void)
-{
-	int n;
 
-	while (n <= 9)
+/**
+ * main -  print all possible combinations of single-digit
+ * Numbers must be separated by ,followed by a space
+ * Numbers should be printed in ascending order
+ * You can only use the putchar function
+ * Return: 0
+ */
+
+int main(void)
+
 {
-	putchar((n % 10) + '0');
-	n++;
-	if (n == 9)
-	putchar(',');
-	putchar(' ');
-}
+
+	int n = 48;
+	int com = 44;
+
+	while (n <= 57)
+	{
+		putchar(n);
+		if (n != 57)
+		{
+			putchar(com);
+			putchar(32);
+		}
+		n += 1;
+	}
 	putchar('\n');
 	return (0);
 }
