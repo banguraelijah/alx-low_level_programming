@@ -6,17 +6,19 @@
  */
 int main(void)
 {
-int digit1, digit2;
-for (digit1 = 0; digit1 <= 9; digit1++)
+int c, i;
+c = i = '0';
+for (c = '0'; c <= '9'; c++)
 {
-for (digit2 = 0; digit2 <= 9; digit2++)
+for (i = '0'; i <= '9'; i++)
 {
-putchar(digit1);
-putchar(digit2);
-if (digit1 == 9 && digit2 == 9)
-continue;
+putchar(c);
+putchar(i);
+if ((c != '9') || (c == '9' && i != '9'))
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
