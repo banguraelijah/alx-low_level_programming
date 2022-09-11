@@ -6,15 +6,16 @@
  */
 int main(void)
 {
-int n;
-while (n <= 9)
+	int n;
+
+	while (n <= 9)
 {
-putchar((n % 10) + '0');
-n++;
-if (n == 9)
-putchar(',');
-putchar(' ');
+	putchar((n % 10) + '0');
+	n++;
+	if (n == 9)
+	putchar(',');
+	putchar(' ');
 }
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
