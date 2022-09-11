@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-int digit1, digit2;
+int digit1 = 0;
+int digit2 = 0
 while (digit1 < 10)
 {
 while (digit2 < 10)
