@@ -20,7 +20,7 @@ putchar((n1 % 10) + 48);
 putchar(' ');
 putchar((n2 / 10) + 48);
 putchar((n2 % 10) + 48);
-if ((n1 != 39 || n2 != 39) && n1 + n2 != 14)
+if ((n1 != 98 || n2 != 98) && n1 + n2 != 14)
 {
 putchar(',');
 putchar(' ');
