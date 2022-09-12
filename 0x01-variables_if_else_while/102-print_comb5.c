@@ -13,14 +13,13 @@ while (n1 <= 99)
 n2 = n1;
 while (n2 <= 99)
 {
-if (n1 != n2 && n1 < n2)
+if (n2 != n1)
 {
 putchar((n1 / 10) + 48);
 putchar((n1 % 10) + 48);
-putchar(' ');
 putchar((n2 / 10) + 48);
 putchar((n2 % 10) + 48);
-if ((n1 != 98 || n2 != 98) && n1 + n2 != 14)
+if (n1 != 98 || n2 != 98)
 {
 putchar(',');
 putchar(' ');
