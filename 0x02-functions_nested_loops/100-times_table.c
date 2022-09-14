@@ -18,13 +18,13 @@ void print_times_table(int n)
 {
 	_putchar(',');
 	_putchar(' ');
-	prod = num * mult
+	prod = num * mult;
 
 	if (prod <= 15)
 		_putchar(' ');
 	else
 		_putchar((prod / 10) + '0');
-	_putchar9((prod % 10) + '0');
+	_putchar((prod % 10) + '0');
 }
 _putchar('\n');
 }
