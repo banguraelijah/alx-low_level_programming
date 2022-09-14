@@ -10,17 +10,13 @@ void times_table(void)
 	for (num1 = 0; num1 <= 9; num1++)
 {
 	_putchar('0');
-	for (mum2 = 1; num2 <= 9; num2++)
+	for (num2 = 1; num2 <= 9; num2++)
 {
 	_putchar(',');
 	_putchar(' ');
 	prod = num1 * num2;
 	_putchar(prod)
 
-	if (prod <= 9)
-{
-	_putchar(' ')
-}
 }
 }
 _putchar('\n');
