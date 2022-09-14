@@ -15,7 +15,7 @@ void times_table(void)
 	_putchar(',');
 	_putchar(' ');
 	prod = num1 * num2;
-	_putchar(prod)
+	_putchar(prod);
 
 }
 }
