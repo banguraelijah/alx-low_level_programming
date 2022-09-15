@@ -2,7 +2,7 @@
 
 /**
  * _isupper - checks for uppercase character.
- * @c: the int var that is used
+ * @c: The character to be checked
  *
  * Return: 0
  */
