@@ -1,8 +1,8 @@
 #inculde "main.h"
 
 /**
- * void print_line - draw a straight line in the terminal
- * @: number of time the character should be printed
+ * print_line - draw a straight line in the terminal
+ * @n: number of time the character should be printed
  */
 void print_line(int n)
 {
