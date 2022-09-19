@@ -4,14 +4,15 @@
  * _puts - a function that prints a str followed by a new line
  * @str: the string
  *
- * Return: string
+ * Return: 0 success
  */
 void _puts(char *str)
 {
 	int len = 0;
 
 	while (str[len])
-	_putchar("%d\n", str);
+	_putchar(str[len]);
 	len++;
-return (str);
+	_putchar('\n');
+return (0);
 }
