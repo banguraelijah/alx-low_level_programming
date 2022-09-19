@@ -8,5 +8,9 @@
  */
 int _strlen(char *s)
 {
-	_putchar("%d\n", _strlen(s));
+	int len = 0;
+
+	while (*s[len])
+		len++;
+	return (len);
 }
