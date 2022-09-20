@@ -1,9 +1,8 @@
-#include "main.c"
+#include "main.h"
 
 /**
- * puts2 - print numbers in two
+ * puts2 - prints extras of a string
  * @str: the string used
- *
  * Return: void
  */
 void puts2(char *str)
@@ -17,5 +16,5 @@ void puts2(char *str)
 	_putchar(str[i]);
 }
 }
-	_putchar('\n');
+_putchar('\n');
 }
