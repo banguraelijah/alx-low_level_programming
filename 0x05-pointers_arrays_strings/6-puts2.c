@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * puts2 - print numbers in two
