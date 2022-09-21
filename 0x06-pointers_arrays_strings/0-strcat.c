@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 
 /**
  * _strcat - writes a unction that concatenates two strings
@@ -16,15 +15,10 @@ char *_strcat(char *dest, char *src)
 	len1 = strlen(dest);
 	len2 = strlen(src);
 
-	while (dest[i++])
-		len1++;
-
 	for (i = 0; i <= len2; i++)
 {
 	dest[len1 + i] = src[i];
 
-	_putchar("%s", dest);
 }
-_putchar('\n');
 return (dest);
 }
