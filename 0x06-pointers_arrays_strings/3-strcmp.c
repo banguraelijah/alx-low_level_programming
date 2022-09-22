@@ -9,6 +9,7 @@
  * Return: -ve integer, 0 or +ve integer if s1 is less than,
  * equal to or greater than s2
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	int diff = 0;
