@@ -1,22 +1,21 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * puts2 - prints a string, followed by a new line,
- * @str: pointer to the string to print
- * Return: void
+ * string_toupper - changes all lowercase letters to uppercase
+ * @str: string to be changed
+ *
+ * Return: address tp the string
  */
 
-void puts2(char *str)
+char *string_toupper(char *str)
 {
-int i = 0;
-while (str[i] != '\0')
-{
-	if (i % 2 == 0)
-{
-	_putchar(str[i]);
-}
+	int i = 0;
 
-	i++;
+	while (str[i] != '\0')
+	{
+		if (str[i] >= 'a' && str[i] <= 'z')
+			str[i] -= 32;
+		i++;
+	}
+	return (str);
 }
-_putchar('\n');
-}
-
