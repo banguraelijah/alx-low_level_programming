@@ -18,15 +18,9 @@ int _strcmp(char *s1, char *s2)
 	flag = 1;
 	break;
 if (flag == 0)
-{
 	_putchar("same");
-	_putchar('\n');
-}
 else
-{
 	_putchar("notsame");
-	_putchar('\n');
-}
 }
 }
 return (flag);
