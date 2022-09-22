@@ -1,19 +1,22 @@
-#include "main.h"
-#include <string.h>
-
+#include "holberton.h"
 /**
- * string_toupper - converts the whole string to uppercase
- * @str: string to be converted
- *
- * Return: string
+ * puts2 - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
-char *string_toupper(char *str)
-{
-	int length = strlen(str);
 
-	for (i = 0; i < length; i++)
+void puts2(char *str)
 {
-	str[i] = toupper(str[i]);
+int i = 0;
+while (str[i] != '\0')
+{
+	if (i % 2 == 0)
+{
+	_putchar(str[i]);
 }
-	return (str);
+
+	i++;
 }
+_putchar('\n');
+}
+
