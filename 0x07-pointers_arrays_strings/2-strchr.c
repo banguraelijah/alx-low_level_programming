@@ -9,8 +9,12 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i;
+	int a = 0, i;
 
+	while (s[a])
+{
+	a++;
+}
 	for (i = 0; i < s.len; i++)
 {
 	if (s[i] == c)
