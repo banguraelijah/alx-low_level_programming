@@ -9,9 +9,9 @@
  */
 int power_maths(int n, int c)
 {
-	if (c % (c / n) == 0)
+	if (c % (n / c) == 0)
 {
-	if (c * (c / n) == n)
+	if (c * (n / c) == n)
 	return (c);
 	else
 	return (-1);
