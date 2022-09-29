@@ -10,8 +10,7 @@
  */
 int is_palindrome(char *s)
 {
-	*s = s;
-	int i;
+	char *s = s;
 	int middle = strlen(s) / 2;
 	int len = strlen(s);
 
