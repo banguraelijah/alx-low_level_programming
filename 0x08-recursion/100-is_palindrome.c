@@ -10,12 +10,12 @@
  */
 int is_palindrome(char *s)
 {
-	int middle = strlen(*s) / 2;
-	int len = strlen(*s);
+	int middle = strlen(s) / 2;
+	int len = strlen(s);
 
 	for (int i = 0; i < middle; i++)
 {
-	if (*s[i] != *s(len - i - 1))
+	if (s[i] != s(len - i - 1))
 		return (0);
 	return 1;
 }
