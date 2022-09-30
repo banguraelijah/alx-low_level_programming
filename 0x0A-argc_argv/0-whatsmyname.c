@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * @argc: number of things entered on the command line
+ * main - prints programe name followed by a new line
+ * @argc: void
  * @argv: an array that holds the string values ente4red on the command line
  *
  * Return: 0 on success
