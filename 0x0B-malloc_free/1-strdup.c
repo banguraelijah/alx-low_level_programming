@@ -19,7 +19,6 @@ char *_strdup(char *str)
 	return ('\0');
 	while (*(str + length_of_str) != 0)
 	length_of_str++;
-	length_of_str++;
 	str_cpy = malloc(*(str) * length_of_str);
 	if (str_cpy == NULL)
 	return ('\0');
