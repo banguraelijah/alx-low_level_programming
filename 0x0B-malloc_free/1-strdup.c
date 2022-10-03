@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <string.h>
 /**
  * _strdup - return pointer to a newly allocated space in memory with strcpy
  * @str: pointer to the string to be copied
@@ -23,7 +23,7 @@ char *_strdup(char *str)
 	str_cpy = malloc(*(str) * length_of_str);
 	if (str_cpy == NULL)
 	return ('\0');
-	for (i = 0; i <= length_of_str; i++)
+	for (i = 0; i < length_of_str; i++)
 	str_cpy[i] = *(str + i);
 	str_cpy[i] = '\0';
 	return (str_cpy);
