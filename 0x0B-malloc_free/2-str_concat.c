@@ -10,8 +10,8 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	unsigned int s1_length = 0;
-	unsigned int s2_length = 0;
+	unsigned int len1 = 0;
+	unsigned int len2 = 0;
 	char *concat_string;
 	unsigned int i, j;
 
