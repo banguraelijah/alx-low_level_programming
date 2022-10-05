@@ -30,7 +30,7 @@ concat_string = malloc(1 + (len1 * sizeof(s1)) + (len2 * sizeof(s2)));
 	for (i = 0; i < len1; i++)
 		concat_string[i] = *(s1 + i);
 	for (j = 0; j < len2; j++)
-		concat_string = *(s2 + j);
+		concat_string[i] = *(s2 + j);
 
 	return (concat_string);
 }
