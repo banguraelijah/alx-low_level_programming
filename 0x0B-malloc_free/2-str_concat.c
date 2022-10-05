@@ -41,7 +41,7 @@ concat_string = malloc(sizeof(char) * (len1 + len2 + 1));
 {
 	while (i < len2)
 {
-	concat_string[i] = s2[i]
+	concat_string[i] = s2[i];
 		i++;
 	j++;
 }
