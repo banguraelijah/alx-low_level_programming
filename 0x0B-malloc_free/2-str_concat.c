@@ -30,21 +30,14 @@ concat_string = malloc(sizeof(char) * (len1 + len2 + 1));
 	i = 0;
 	j = 0;
 	if (s1)
-{
 	while (i < len1)
-{
 	concat_string[i] = s1[i];
 	i++;
-}
-}
 	if (s2)
-{
 	while (i < len2)
-{
 	concat_string[i] = s2[i];
 		i++;
 	j++;
-}
 	concat_string[i] = '\0';
 	return (concat_string);
 }
